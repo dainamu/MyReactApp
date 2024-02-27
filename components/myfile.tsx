@@ -9,3 +9,12 @@ export default function MyFile() {
   };
   return <input type="file" accept=".json" onChange={getFile} />;
 }
+
+function MyTable() {
+  return (
+    <div>
+      <MyFile></MyFile>
+      <table></table>
+    </div>
+  );
+}
